@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video id="background-video" muted loop>
+        <source src="assets/tlo.mov" type="video/mp4">
+    </video>
+
+    <audio id="background-music" loop>
+        <source src="assets/muzyka.mp3" type="audio/mpeg">
+    </audio>
+    
+
+    <div id="overlay"></div>
+
+    <div id="message">[ CLICK ]</div>
+    
+    <div id="profile-card">
+        <div class="profile-header">
+            <img class="avatar" src="assets/profile.png" alt="Profile Picture">
+            <div class="profile-info">
+                <h2 id="username">OgCat</h2>
+            </div>
+        </div>
+        <div class="social-icons">
+            <img src="assets/storm.png" alt="Storm" class="icon" data-url="https://discord.gg/stormggeu">
+        </div>            
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
